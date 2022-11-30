@@ -1,0 +1,63 @@
+.contacts2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-right:70px;
+     
+    & address {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+.contacts2__logo {
+    font-family: 'Raleway';
+        font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration-line: none;
+    color: #2196F3;
+    &:hover {
+        color: #2196F3;
+    }
+    &:focus {
+        color: #2196F3;
+    }
+}
+
+
+.contacts2__list {
+    list-style: none;
+    padding-bottom:60px;
+}
+
+.contacts2__logo--colour {
+    color: #ffffff;
+    &:hover {
+        color:#2196F3;
+    }
+}
+
+.contacts2__address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding:20px 0 9px 0;
+}
+
+.contacts2__link {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 0;
+    &:hover {
+        color:#2196F3;
+    }
+}
+

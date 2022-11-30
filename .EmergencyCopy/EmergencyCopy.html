@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+rel="stylesheet">
+    <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
+
+    <title>Studio</title>
+</head>
+
+<body>
+    <div class="backdrop is-hidden" data-modal>
+        
+        <div class="modal">
+            <button class="modal-btn" data-modal-close>
+                <svg width="11" height="11">
+                    <use href="./images/icons.svg#icon-vector">x</use>
+                </svg>
+            </button>
+
+            <form class="form" > 
+
+                <h3 class="form-header" >Zostaw swoje dane w formularzu poniżej</h3>
+
+                
+                <fieldset class="fieldset" >
+                    <label class="label text-label" for="name" name="name">Imie</label>
+                        <svg  class="form-icon" width="18"
+                            height="18" >
+                            <use href="./images/icons.svg#icon-person-black-18dp-1" ></use>
+                        </svg> 
+                        <input  class="input" type="text" id="name" name="name">
+                </fieldset>       
+                    
+                <fieldset class="fieldset" >
+                    <label class="label text-label" for="phone" name="phone">Telefon</label>
+                        <svg class="form-icon"
+                            width="18"
+                            height="18" >
+                            <use href="./images/icons.svg#icon-phone-black-18dp-1" ></use>
+                        </svg> 
+                        <input class="input" type="tel" id="phone" name="phone-number">
+                </fieldset>
+                
+                <fieldset class="fieldset" >
+                    <label class="label text-label" for="email" name="email">Email</label>
+                        <svg class="form-icon" 
+                            width="18"
+                            height="18" >
+                            <use href="./images/icons.svg#icon-email-black-18dp-1" ></use>
+                        </svg> 
+                        <input class="input" type="email" id="email" name="email">
+                </fieldset>  
+                
+                <fieldset class="fieldset fourth" >
+                    <label class="label text-label" for="textarea" name="comment" >Komentarz</label>
+                    <textarea class="textarea" placeholder="Wprowadź tekst" id="textarea" name="comment"></textarea>
+                </fieldset>
+
+                
+                
+                
+                
+                <div>
+                        <input class="checkbox" type="checkbox" id="checkbox" >
+                        
+                    <label for="checkbox" >
+                        <span class="check-icon-span">
+                            <svg  class="check-icon" width="11" height="8">
+                                <use href="./images/icons.svg#icon-vector1" ></use>
+                            </svg>
+                        </span>
+                        <span class="form-span">Oświadczam iż akceptuję <span class="form-span2">Regulamin</span> i <span class="form-span2">Politykę Prywatności.</span></span>
+                    
+                    </label>
+                
+                </div>
+                
+                    <button class="form-button"  type="submit"><span class="form-btn-span" >Wyślij</span></button>
+                    
+
+               
+            </form>
+
+        </div>
+    
+    </div>
+
+<header class="container header-box">
+    <nav class="navigator">
+        
+        <ul class="header-list">
+        <li><a class="logo header-item" href="./index.html">Web<span class="logo-colour2">Studio</span></a></li>
+        <li><a class="header-item current-side-item" href="">Agencja</a></li>
+        <li><a class="header-item" href="./portfolio.html">Portfolio</a></li>
+        <li><a class="header-item" href="">Kontakt</a></li>
+        </ul>
+    </nav>
+    
+    
+    <div class="header-div">
+    
+        <a class="header-item contact-item" href="mailto:info@devstudio.com">
+            <svg class="item-envelope"   width="16" 
+                    height="12">
+            <use href="./images/icons.svg#icon-envelope"></use>
+        </svg>info@devstudio.com</a>
+        <a class="header-item contact-item" href="tel:+48111111111">
+            <svg class="item-smartphone" width="10px"
+                height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+48 111 111 111</a>
+    </div>
+    
+</header>
+
+
+
+    <main>
+        <section class="primary section">
+                <div class="container diver">
+                <h1 class="primary-item">EFEKTYWNE ROZWIĄZANIA<br> DLA WASZEGO BIZNESU</h1>
+                <button type="button" class="current-side-button first-button" data-modal-open>Zamów usługe</button>
+                </div>
+        </section>
+
+        
+        <section>
+            <ul class="container icon-box">
+                <li  class="icon-back"><span class="svg-item"><svg width="70px" height="70px">
+                            <use href="./images/icons.svg#icon-antenna-1"></use>
+                        </svg></span></li>
+                <li class="icon-back"><span class="svg-item"><svg width="70px" height="70px">
+                            <use href="./images/icons.svg#icon-clock-1"></use>
+                        </svg></span></li>
+                <li class="icon-back"><span class="svg-item"><svg width="70px" height="70px">
+                            <use href="./images/icons.svg#icon-diagram-1"></use>
+                        </svg></span></li>
+                <li class="icon-back"><span class="svg-item"><svg width="70px" height="70px">
+                            <use href="./images/icons.svg#icon-astronaut-1"></use>
+                        </svg></span></li>
+            </ul>
+        </section>
+
+        
+        
+        <ul class="container menu1 secondary-list">
+            <li>
+                <h4 class="fourth-header">LOREM IPSUM</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+            </li>
+            <li>
+                <h4 class="fourth-header">LOREM IPSUM</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                </p>
+            </li>
+            <li>
+                <h4 class="fourth-header">LOREM IPSUM</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                    malesuada
+                </p>
+            </li>
+            <li>
+                <h4 class="fourth-header">LOREM IPSUM</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et
+                    malesuada
+                </p>
+            </li>
+        </ul>
+        
+
+       
+
+    <section class="container section">
+            <h2 class="header-secondary"><b>Czym się zajmujemy?</b></h2>
+            
+        <ul class="menu2">
+            <li>
+                <figure>
+                <img src="./images/img1.jpg"
+                 alt="Praca programisty na komputerze"
+                 width="370"
+                 height="294"
+                 >
+                 <div class="menu2-div">
+                    <h3 class="menu2-header">APLIKACJE KOMPUTEROWE</h3>
+                </div>
+                    
+                    
+                </figure>
+            </li>
+            
+            <li>
+                <figure>
+                <img src="./images/img2.jpg"
+                alt="Praca programisty na telefonie "
+                width="370"
+                height="294"
+                >
+                <div class="menu2-div">
+                    <h3 class="menu2-header">APLIKACJE MOBILNE</h3>
+                </div>
+                </figure>
+            </li>
+
+            <li>
+                <figure>
+                <img src="./images/img3.jpg"
+                alt="Praca programisty na tablecie"
+                width="370"
+                height="294"
+                >
+                <div class="menu2-div">
+                    <h3 class="menu2-header">ROZWIĄZANIA GRAFICZNE</h3>
+                </div>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section section-secondary">
+        <div class="diver-two container">
+        <h2 class="header-secondary"><b>Nasz Zespół</b></h2>
+        
+        <ul class="menu3">
+            <li class="card">
+                <img src="./images/box1.jpg"
+                    alt="Mężczyzna w okularach"
+                    width="270"
+                    height="260"
+                    >
+                    <h3 class="header-third">John Doe</h3>
+                    <p class="span-item">Product Designer</p>
+                    
+                    <ul class="social-list">
+                        <li>
+                            <a class="list-item-social" href="https://www.instagram.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="list-item-social" href="https://www.twitter.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="list-item-social" href="https://www.facebook.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="list-item-social" href="https://www.linkedin.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                            </a>
+                        </li>
+                    </ul>
+            </li>
+
+            <li class="card">
+                
+                    <img src="./images/box2.jpg"
+                    alt="Pani w okularach"
+                    width="270"
+                    height="260"
+                    >
+                    <h3 class="header-third">John Doe</h3>
+                
+                <p class="span-item">Frontend Developer</p>
+                <ul class="social-list">
+                    <li>
+                        <a class="list-item-social" href="https://www.instagram.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="list-item-social" href="https://www.twitter.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="list-item-social" href="https://www.facebook.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="list-item-social" href="https://www.linkedin.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="card">
+                
+                    <img src="./images/box3.jpg" 
+                    alt="Mężczyzna w okularach" 
+                    width="270" 
+                    height="260">
+                    <h3 class="header-third">John Doe</h3>
+                    <p class="span-item">Marketing</p>
+                    <ul class="social-list">
+                        <li>
+                            <a class="list-item-social" href="https://www.instagram.com">
+                                <svg class="social-icon" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="list-item-social" href="https://www.twitter.com">
+                                <svg class="social-icon" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="list-item-social" href="https://www.facebook.com">
+                                <svg class="social-icon" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="list-item-social" href="https://www.linkedin.com">
+                                <svg class="social-icon" width="20px" height="20px">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+            </li>
+
+            <li class="card">
+                <img src="./images/box4.jpg" 
+                alt="Mężczyzna w okularach" 
+                width="270" 
+                height="260">
+                <h3 class="header-third">John Doe</h3>
+                <p class="span-item">Marketing</p>
+                <ul class="social-list">
+                    <li>
+                        <a class="list-item-social" href="https://www.instagram.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="list-item-social" href="https://www.twitter.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="list-item-social" href="https://www.facebook.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a class="list-item-social" href="https://www.linkedin.com">
+                            <svg class="social-icon" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            </ul>
+            </div>
+    </section>
+
+    <section class="section">
+        <h2 class="header-secondary">Nasi klienci</h2>
+
+        <div class="client-div container">
+            <ul class="client-list">
+                <li>
+                    <a href="#" class="client-item">
+                    <svg width="170px" height="92px">
+                        <use href="./images/icons.svg#icon-client-1"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="client-item">
+                        <svg width="170px" height="92px">
+                            <use href="./images/icons.svg#icon-client-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="client-item">
+                        <svg width="170px" height="92px">
+                            <use href="./images/icons.svg#icon-client-3"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="client-item">
+                        <svg width="170px" height="92px">
+                            <use href="./images/icons.svg#icon-client-4"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="client-item">
+                        <svg width="170px" height="92px">
+                            <use href="./images/icons.svg#icon-client-5"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="client-item">
+                        <svg width="170px" height="92px">
+                            <use href="./images/icons.svg#icon-client-6"></use>
+                        </svg>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+        
+    </section>
+    
+    </main>
+    
+    
+<footer  class="footer-primary">
+
+<div class="container footer-primary-div">
+    <div class="footer-logo">
+            
+            <a class="logo" href="http://127.0.0.1:5500/index.html">Web<span class="logo-colour">Studio</span></a>
+            <address class="adress-item">m. Warszawa, Aleje Jerozolimskie 21</address>
+        
+        <ul class="footer-list">
+            <li><a class="footer-list-item contacts header-item" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="footer-list-item contacts header-item" href="tel:+48111111 111">+48 111 111 111</a></li>
+        </ul>
+    </div>
+            
+            <div class="social-footer-div">
+                    <p class="item-p">DOŁĄCZ DO NAS</p>
+                <ul class="social-list-footer">
+                
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.instagram.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+        
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.twitter.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+        
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.facebook.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+        
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.linkedin.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                </ul>
+            </div>
+
+            <div class="footer-contain" >
+                <p class="footer-p">Zapisz się do newslettera</p>
+                <input class="footer-input"  type="email" placeholder="E-mail"  > 
+                <button class="footer-btn"  type="submit"><span class="footer-btn-span">Zapisz się</span>
+                    <svg class="footer-icon-btn">
+                        <use  href="./images/icons.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </div>
+
+         
+
+</div>
+    
+
+</footer>
+<script src="./js/modal.js" > </script>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
+        
+</head>
+
+
+<body>
+    
+
+<header class="container header-box">
+    <nav class="navigator">
+
+        <ul class="header-list">
+            <li><a class="logo header-item" href="./index.html">Web<span class="logo-colour2">Studio</span></a></li>
+            <li><a class="header-item" href="./index.html">Agencja</a></li>
+            <li><a class="header-item current-side-item current-side-item2" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="header-item" href="">Kontakt</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="header-div">
+    
+        <a class="header-item contact-item" href="mailto:info@devstudio.com">
+            <svg class="item-envelope" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
+        <a class="header-item contact-item" href="tel:+48111111111">
+            <svg class="item-smartphone" width="10px" height="16px">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+48 111 111 111</a>
+    </div>
+
+</header>
+    
+    <section class="container section">
+        <ul class="buttons-list">
+            <li><button type="button" class="list-button ">Wszystkie</button></li>
+            <li><button type="button" class="list-button">Strony</button></li>
+            <li><button type="button" class="list-button">Aplikacje</button></li>
+            <li><button type="button" class="list-button">Dizajn</button></li>
+            <li><button type="button" class="list-button">Marketing</button></li>
+        </ul>
+    </section>
+
+    <section class="section container">
+        <ul class="portfolio-list">
+           
+            <li class="portfolio-list-item">
+                <div class="overflow-div">
+                    <img src="./images/portfolio-img1.jpg"
+                    alt="zlaptop"
+                    width="370"
+                    height="294">
+                    
+                    <div class="overlay">
+                        <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                        </p>
+                    </div>
+                </div>
+                
+                <h3 class="header-third-portfolio">Technotrack</h3>
+                <p class="span-item-2">Strona internetowa</p>
+            </li>
+       
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img2.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+            
+            
+            <h3 class="header-third-portfolio">Grafika New Orlean vs Golden Star</h3>
+            <p class="span-item-2">Dizajn</p>
+        </li>
+
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img3.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+            
+            <h3 class="header-third-portfolio">Restauracja Seafood</h3>
+            <p class="span-item-2">Aplikacja</p>
+        </li>
+        
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img4.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+            
+            <h3 class="header-third-portfolio">Projekt Prime</h3>
+            <p class="span-item-2">Marketing</p>
+        </li>
+
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img5.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+
+            <h3 class="header-third-portfolio">Projekt Boxes</h3>
+            <p class="span-item-2">Aplikacja</p>
+        </li>
+
+      
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img6.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+
+            <h3 class="header-third-portfolio">Inspiration has no Borders</h3>
+            <p class="span-item-2">Strona internetowa</p>
+        </li>
+
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img7.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+            
+            <h3 class="header-third-portfolio">Magazyn Limited Edition</h3>
+            <p class="span-item-2">Dizajn</p>
+        </li>
+
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img8.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+            
+            <h3 class="header-third-portfolio">Projekt LAB</h3>
+            <p class="span-item-2">Marketing</p>
+        </li>
+
+        <li class="portfolio-list-item">
+            <div class="overflow-div">
+                <img src="./images/portfolio-img9.jpg" alt="zlaptop" width="370" height="294">
+        
+                <div class="overlay">
+                    <p class="portfolio-p">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                        koronawirusa. Firmy wykorzystują tę platformę
+                        do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+                    </p>
+                </div>
+            </div>
+            
+            <h3 class="header-third-portfolio">Growing Business</h3>
+            <p class="span-item-2">Aplikacja</p>
+        </li>
+        </ul>
+    
+    </section>
+
+<footer class="footer-primary">
+
+    <div class="container footer-primary-div">
+        <div class="footer-logo">
+
+            <a class="logo" href="http://127.0.0.1:5500/index.html">Web<span class="logo-colour">Studio</span></a>
+            <address class="adress-item">m. Warszawa, Aleje Jerozolimskie 21</address>
+
+            <ul class="footer-list">
+                <li><a class="footer-list-item contacts header-item" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li><a class="footer-list-item contacts header-item" href="tel:+48111111 111">+48 111 111 111</a></li>
+            </ul>
+        </div>
+
+        <div class="social-footer-div">
+            <p class="item-p">DOŁĄCZ DO NAS</p>
+            <ul class="social-list-footer">
+
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.instagram.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.twitter.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.facebook.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="link-link">
+                    <a class="list-item-social footer-social-item" href="https://www.linkedin.com">
+                        <svg class="social-icon-footer" width="20px" height="20px">
+                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-contain" >
+            <p class="footer-p">Zapisz się do newslettera</p>
+            <input class="footer-input"  type="email" placeholder="E-mail"  > 
+            <button class="footer-btn"  type="button" type="submit"><span class="footer-btn-span">Zapisz się</span>
+                <svg class="footer-icon-btn">
+                    <use  href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+</footer>
+</body>
+</html>

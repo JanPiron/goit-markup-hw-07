@@ -1,0 +1,30 @@
+.footer-item {
+transition: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-item:hover {
+    color: #2196F3;
+}
+.footer-item:focus {
+    color: #2196F3;
+}
+
+a:hover {
+    fill: #2196F3;
+}
+
+
+.div-box {
+    display:flex;
+    gap:30px;
+}
+
+
+
+
+
+
+
+
