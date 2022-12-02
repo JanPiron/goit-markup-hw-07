@@ -7,65 +7,60 @@
         background-color: #2196F3;
         border: none;
     }
-    
-}
-
-.checkbox__item {
-    display:block;
-    position:absolute;
-    border: 1.5px solid black;
-    border-radius: 2px;
-    width: 16px;
-    height: 15px;
-    left: 55px;
-    top:448px;
-    margin-top:0px;
-}
-
-.checkbox__text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-
-.checkbox__text--underline {
-    text-decoration: underline;
+    &__item {
+        display:block;
+        position:absolute;
+        border: 1.5px solid black;
+        border-radius: 2px;
+        width: 16px;
+        height: 15px;
+        left: 55px;
+        top:448px;
+        margin-top:0px;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+    &__text--underline {
+        text-decoration: underline;
     color:rgba(33, 150, 243, 1);
+    }
+    &__icon {
+        position:absolute;
+        fill:white;
+        top: 4px;
+        left:3px;
+    }
+    &__button {
+        width: 200px;
+        height: 50px;
+        color: #FFFFFF;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border:none;
+        justify-content: center;
+        margin: 30px 164px 40px 164px;
+        cursor:pointer;
+    }
+    &__button-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+    }
 }
 
-.checkbox__icon {
-    position:absolute;
-    fill:white;
-    top: 4px;
-    left:3px;
-}
 
-.checkbox__button {
-    width: 200px;
-    height: 50px;
-    color: #FFFFFF;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border:none;
-    justify-content: center;
-    margin: 30px 164px 40px 164px;
-    cursor:pointer;
-}
-
-.checkbox__button-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.09em;
-    color: #FFFFFF;
-}
 
 
 

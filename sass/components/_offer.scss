@@ -1,10 +1,8 @@
 .offer {
     padding-bottom: 94px;
     padding-top: 94px;
-}
-
-.offer__header {
-    font-family: 'Roboto';
+    &__header {
+        font-family: 'Roboto';
         font-style: normal;
     font-weight: 700;
         font-size: 36px;
@@ -14,31 +12,28 @@
         margin: 0 auto;
         text-align: center;
         margin-bottom:50px;
-}
-
-.offer__list {
-    display:flex;
-    list-style: none;
-    justify-content: center;
-    gap:30px;
-    position:relative;
-    z-index:-1;
-}
-
-.offer__box {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-        width: 370px;
-        height: 70px;
-        background: rgba(47, 48, 58, 0.8);
-        z-index:2;
-        position:absolute;
-        bottom:0;
-}
-
-.offer__title {
-font-family: 'Roboto';
+    }
+    &__list {
+        display:flex;
+        list-style: none;
+        justify-content: center;
+        gap:30px;
+        position:relative;
+        z-index:-1;
+    }
+    &__box {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+            width: 370px;
+            height: 70px;
+            background: rgba(47, 48, 58, 0.8);
+            z-index:2;
+            position:absolute;
+            bottom:0;
+    }
+    &__title {
+        font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -46,4 +41,6 @@ font-family: 'Roboto';
     text-align: center;
     letter-spacing: 0.03em;
     color:white;
+        }
 }
+

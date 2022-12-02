@@ -1,29 +1,32 @@
-.client__list {
-    list-style:none;
-    display:flex;
-    gap:30px;
-}
-
-.client__item {
-    display:flex;
-    justify-content: space-between;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    align-content: center;
-    fill:rgba(175, 177, 184, 1);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill, border-color; 
-        &:hover {
-            fill: #2196F3;
-            fill: #2196F3;
-            border-color: #2196F3;
-        }
-        &:focus {
-            fill: #2196F3;
-            fill: #2196F3;
-            border-color: #2196F3;
-        }
+.client {
+    background-color: 0;
+    
+    &__list {
+        list-style:none;
+        display:flex;
+        gap:30px;
+    }
+    &__item {
+        display:flex;
+        justify-content: space-between;
+        width: 170px;
+        height: 92px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        align-content: center;
+        fill:rgba(175, 177, 184, 1);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill, border-color; 
+            &:hover {
+                fill: #2196F3;
+                fill: #2196F3;
+                border-color: #2196F3;
+            }
+            &:focus {
+                fill: #2196F3;
+                fill: #2196F3;
+                border-color: #2196F3;
+            }
+    }
 }

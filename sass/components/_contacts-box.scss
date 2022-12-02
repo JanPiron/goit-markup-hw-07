@@ -1,50 +1,44 @@
 .contacts-box {
     display:flex;
     justify-content: flex-end;
-    
     & a {
         padding:50px;
     }
-}
 
-.contacts-box__item {
-    font-weight: 500;
-    font-family: 'Roboto';
-        font-size: 14px;
-        line-height: 1.15;
-        letter-spacing: 0.02em;
-        text-decoration-line: none;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        padding-right: 371px;
-        color: #212121;
+    &__item {
+        font-weight: 500;
+        font-family: 'Roboto';
+            font-size: 14px;
+            line-height: 1.15;
+            letter-spacing: 0.02em;
+            text-decoration-line: none;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            padding-right: 371px;
+            color: #212121;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-property: color;
+    
+            &:hover {
+                color: #2196F3;
+            }
+    }
+    &__link {
+        color: #757575;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-property: color;
-
-        &:hover {
-            color: #2196F3;
+        transition-property: fill color; 
+        
+        &:hover .contacts-box__image {
+            fill:#2196F3;
         }
-}
-
-
-.contacts-box__link {
-    color: #757575;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill color; 
-    
-    
-
-    &:hover .contacts-box__image {
-        fill:#2196F3;
     }
-}
-
-.contacts-box__image {
-    margin-right:10px;
-    fill:#757575;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: fill;
+    &__image {
+        margin-right:10px;
+        fill:#757575;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+    }
 }

@@ -1,9 +1,8 @@
 .main-buttons {
     padding-bottom: 50px;
     padding-top: 94px;
-}
 
-.main-buttons__item {
+    &__item {
     background: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
@@ -35,4 +34,5 @@
     display:flex;
     list-style:none;
     justify-content: center;
+}
 }
